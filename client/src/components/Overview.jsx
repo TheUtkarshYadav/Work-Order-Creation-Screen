@@ -5,10 +5,7 @@ import Package from './Package.jsx';
 const Overview = () => {
     return (
         <div>
-            <WorkOrderForm />
-            <div className="mt-4">
-                <Package />
-            </div>
+            <Package />
         </div>
     );
 };
